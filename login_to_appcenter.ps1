@@ -10,4 +10,4 @@ npm install -g appcenter-cli@$APPCENTER_CLI_VERSION
 # Login to App Center using the provided token
 appcenter login --token $APPCENTER_TOKEN
 
-appcenter distribute release --debug -f android\app\build\outputs\apk\release\app-release.apk -a adwaitpawar/testapp -g test_group
+appcenter distribute release --debug -f android\app\build\outputs\apk\release\app-release.apk -a adwaitpawar/testapp -g testgroup
